@@ -1,0 +1,28 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 335px;
+    padding-bottom: 20px;
+}
+
+.card img {
+    height: 350px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price {
+    color: #75afca;
+    font-size: 32px;
+    font-weight: 500;
+}
